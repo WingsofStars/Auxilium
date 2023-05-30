@@ -1,0 +1,28 @@
+<div class="fullscreen main-spacer">
+    <div class="center-div-parent">
+        <img src="../../assets/AuxiliumLogo.PNG " width="20%" height="auto" style="border-radius: 7%; margin: 10px;">
+    </div>
+    
+    
+    <div class="card text-white bg-info mb-3" style="margin: 10px;">
+        <div class="card-body">
+            <div class="form-group">
+                <label for="assistantName" class="form-label mt-4">Assistant's Name</label>
+                <input type="text" [(ngModel)]="assistantName" class="form-control" id="assistantName" placeholder="Enter Assistant's Custom Name">
+                <small id="assistantNameHelp" class="form-text text-muted">Try to not make it too complicated. The simpler the better</small>
+              </div>
+            <div class="form-group">
+                <label for="ownerName" class="form-label mt-4">owner's Name</label>
+                <input type="text" [(ngModel)]="ownerName" class="form-control" id="ownerName" placeholder="Enter Owner's Name">
+              </div>
+            <div class="form-group">
+                <label for="location" class="form-label mt-4">Location</label>
+                <input type="text" [(ngModel)]="location" class="form-control" id="location" placeholder="Enter Zipcode OR City Name ex: '90210', 'Salt Lake City' ">
+                <small id="locationHelp" class="form-text text-muted">This is to get the weather for your current location</small>
+              </div>
+              <div class="center-div-parent">
+              <a id="resume-button" class="btn btn-primary" style="width: 50%; margin: 25px;">Submit </a>
+            </div>
+        </div>
+      </div>
+</div>
